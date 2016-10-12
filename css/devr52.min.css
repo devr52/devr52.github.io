@@ -1,4 +1,4 @@
-    /*!
+        /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
@@ -106,71 +106,70 @@
         background-color: #324554
     }
 
+    .btn-primary {
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4
+    }
 
-.btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
-}
+    .btn-primary.focus,
+    .btn-primary:focus {
+        color: #fff;
+        background-color: #286090;
+        border-color: #122b40
+    }
 
-.btn-primary.focus,
-.btn-primary:focus {
-    color: #fff;
-    background-color: #286090;
-    border-color: #122b40
-}
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74
+    }
 
-.btn-primary:hover {
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74
-}
+    .btn-primary.active,
+    .btn-primary:active,
+    .open>.dropdown-toggle.btn-primary {
+        color: #fff;
+        background-color: #286090;
+        border-color: #204d74
+    }
 
-.btn-primary.active,
-.btn-primary:active,
-.open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74
-}
+    .btn-primary.active.focus,
+    .btn-primary.active:focus,
+    .btn-primary.active:hover,
+    .btn-primary:active.focus,
+    .btn-primary:active:focus,
+    .btn-primary:active:hover,
+    .open>.dropdown-toggle.btn-primary.focus,
+    .open>.dropdown-toggle.btn-primary:focus,
+    .open>.dropdown-toggle.btn-primary:hover {
+        color: #fff;
+        background-color: #204d74;
+        border-color: #122b40
+    }
 
-.btn-primary.active.focus,
-.btn-primary.active:focus,
-.btn-primary.active:hover,
-.btn-primary:active.focus,
-.btn-primary:active:focus,
-.btn-primary:active:hover,
-.open>.dropdown-toggle.btn-primary.focus,
-.open>.dropdown-toggle.btn-primary:focus,
-.open>.dropdown-toggle.btn-primary:hover {
-    color: #fff;
-    background-color: #204d74;
-    border-color: #122b40
-}
+    .btn-primary.active,
+    .btn-primary:active,
+    .open>.dropdown-toggle.btn-primary {
+        background-image: none
+    }
 
-.btn-primary.active,
-.btn-primary:active,
-.open>.dropdown-toggle.btn-primary {
-    background-image: none
-}
+    .btn-primary.disabled.focus,
+    .btn-primary.disabled:focus,
+    .btn-primary.disabled:hover,
+    .btn-primary[disabled].focus,
+    .btn-primary[disabled]:focus,
+    .btn-primary[disabled]:hover,
+    fieldset[disabled] .btn-primary.focus,
+    fieldset[disabled] .btn-primary:focus,
+    fieldset[disabled] .btn-primary:hover {
+        background-color: #337ab7;
+        border-color: #2e6da4
+    }
 
-.btn-primary.disabled.focus,
-.btn-primary.disabled:focus,
-.btn-primary.disabled:hover,
-.btn-primary[disabled].focus,
-.btn-primary[disabled]:focus,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary.focus,
-fieldset[disabled] .btn-primary:focus,
-fieldset[disabled] .btn-primary:hover {
-    background-color: #337ab7;
-    border-color: #2e6da4
-}
-
-.btn-primary .badge {
-    color: #337ab7;
-    background-color: #fff
-}
+    .btn-primary .badge {
+        color: #337ab7;
+        background-color: #fff
+    }
 
     .btn-xl {
         color: #fff;
@@ -299,6 +298,9 @@ fieldset[disabled] .btn-primary:hover {
         }
         .navbar-custom.affix .navbar-brand {
             font-size: 1.5em
+        }
+        .about-margins {
+            padding: 12px 15px;
         }
     }
 
@@ -916,7 +918,11 @@ fieldset[disabled] .btn-primary:hover {
     }
 
     .about-me {
-        padding: 15px;
+        padding: 0px 15px;
+    }
+
+    .about-margins {
+        padding: 25px 15px;
     }
 
     footer {
@@ -1024,3 +1030,34 @@ fieldset[disabled] .btn-primary:hover {
         background-color: #222;
         color: #fff
     }
+
+    .skill-level {
+        background: red;
+        padding: 5px;
+        color: white;
+        text-align: center;
+    }
+
+    .beginner {
+        background-color: lightgreen
+    }
+
+    .familiar {
+        background-color: forestgreen;
+    }
+
+    .proficient {
+        background-color: aqua
+    }
+
+    .adjustment {
+        padding-top: 60px
+    }
+
+    @media (max-width:768px) {
+        .about-margins {
+            padding: 12px 15px;
+        }
+        .adjustment {
+            padding-top: 12px;
+        }
