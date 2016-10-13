@@ -1157,3 +1157,7 @@ hr.sp-bg:after {
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
 }
+
+.img-src {
+    font-size:10px;
+}
