@@ -6,7 +6,7 @@
 
         @import url(//fonts.googleapis.com/css?family=Black+Ops+One);
         @import url(http://fonts.googleapis.com/css?family=Lato:400,300italic,300,100,100italic,400italic,700,700italic,900,900italic);
-       @import 'https://fonts.googleapis.com/css?family=Reenie+Beanie';
+        @import 'https://fonts.googleapis.com/css?family=Reenie+Beanie';
         .btn-primary,
         .btn-xl,
         h1,
@@ -17,6 +17,11 @@
         h6 {
             text-transform: uppercase;
             font-weight: 700
+        }
+
+        q {
+            font-style: italic;
+            font-size: 12.5px;
         }
 
         .btn-primary.active,
@@ -164,7 +169,7 @@
 
         .btn-xl {
             color: #fff;
-            background-color:#337ab7;
+            background-color: #337ab7;
             border-color: #2e6da4;
             border-radius: 3px;
             font-size: 16px;
@@ -308,18 +313,19 @@
         }
 
         header .intro-text .intro-lead-in {
-            font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: "Reenie Beanie", cursive;
             font-style: italic;
-            font-size: 22px;
+            font-size: 40px;
             line-height: 22px;
-            margin-bottom: 25px
+            margin-bottom: 25px;
+            font-weight: 400;
         }
 
         header .intro-text .intro-heading {
-            font-family: 'Black Ops One', cursive;
+            font-family: 'Montserrat', cursive;
             text-transform: uppercase;
             font-weight: 700;
-            font-size: 50px;
+            font-size: 45px;
             line-height: 50px;
             margin-bottom: 25px
         }
@@ -329,17 +335,18 @@
                 padding-top: 300px
             }
             header .intro-text .intro-lead-in {
-                font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-family: "Reenie Beanie", cursive;
                 font-style: italic;
-                font-size: 40px;
-                line-height: 40px;
-                margin-bottom: 25px
+                font-size: 60px;
+                line-height: 22px;
+                margin-bottom: 25px;
+                font-weight: 400;
             }
             header .intro-text .intro-heading {
-                font-family: 'Black Ops One', cursive;
+                font-family: 'Montserrat', cursive;
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 75px;
+                font-size: 65px;
                 line-height: 75px;
                 margin-bottom: 25px
             }
@@ -348,7 +355,6 @@
         #portfolio .portfolio-item .portfolio-caption p,
         section h3.section-subheading {
             font-family: 'Reenie Beanie', cursive;
-
             font-weight: 600;
         }
 
@@ -690,7 +696,7 @@
         }
 
         section#contact .form-control:focus {
-            border-color:#2e6da4;
+            border-color: #2e6da4;
             box-shadow: none
         }
 
@@ -812,21 +818,16 @@
             display: none
         }
 
-
-
-
         ::-moz-selection {
             text-shadow: none;
-            background:#337ab7;
-            color:white;
-
+            background: #337ab7;
+            color: white;
         }
 
         ::selection {
             text-shadow: none;
-            background:#337ab7;
-            color:white;
-
+            background: #337ab7;
+            color: white;
         }
 
         img::-moz-selection {
@@ -880,7 +881,7 @@
         }
 
         .logo-tagline {
-            font-size: 25px
+            font-size: 18px
         }
 
         .btn-outline,
@@ -919,7 +920,6 @@
 
         .about-margins {
             padding: 12px 15px;
-
         }
 
         footer {
@@ -1034,14 +1034,14 @@
             font-size: 12px;
             color: white;
             text-align: center;
-            border:1px solid #0f3f57;
+            border: 1px solid #0f3f57;
             border-right: none;
-            border-left:none;
+            border-left: none;
         }
 
         .beginner {
             background-color: hsl(200, 93%, 46%);
-            border-left:1px solid #0f3f57;
+            border-left: 1px solid #0f3f57;
         }
 
         .familiar {
@@ -1069,9 +1069,8 @@
 
         .master {
             background: #0f3f57;
-            border-right:1px solid #0f3f57;
+            border-right: 1px solid #0f3f57;
         }
-
         /* Skills Style 9 */
 
         .skillst9 {
@@ -1131,44 +1130,36 @@
             font-weight: 400;
         }
 
+        .post-desc {
+            text-align: justify;
+        }
 
+        hr.sp-bg:after {
+            background-color: #eee;
+            color: #2C3E50
+        }
 
+        .see-all {
+            border: 2px solid #337ab7;
+            padding: 7px 25px;
+            border-radius: 4px;
+            background: transparent;
+        }
 
-.post-desc {
-    text-align:justify;
-}
+        .see-all-transition {
+            outline: none;
+            -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+            transition: background-color 0.2s ease-out, color 0.2s ease-out;
+        }
 
+        .see-all-transition:hover,
+        .see-all-transition:active {
+            background-color: #337ab7;
+            color: #fff;
+            -webkit-transition: background-color 0.3s ease-in, color 0.3s ease-in;
+            transition: background-color 0.3s ease-in, color 0.3s ease-in;
+        }
 
-
-hr.sp-bg:after {
-    background-color: #eee;
-    color: #2C3E50
-}
-
-.see-all {
-    border:2px solid #337ab7;
-    padding:7px 25px;
-    border-radius:4px;
-    background: transparent;
-}
-
-.see-all-transition {
-  outline: none;
-  -webkit-transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
-  transition: background-color 0.2s ease-out,
-              color 0.2s ease-out;
-}
-.see-all-transition:hover,
-.see-all-transition:active {
-  background-color: #337ab7;
-  color: #fff;
-  -webkit-transition: background-color 0.3s ease-in,
-              color 0.3s ease-in;
-  transition: background-color 0.3s ease-in,
-              color 0.3s ease-in;
-}
-
-.img-src {
-    font-size:10px;
-}
+        .img-src {
+            font-size: 10px;
+        }
