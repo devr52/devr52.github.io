@@ -57,7 +57,8 @@ a {
 
 a:active,
 a:hover {
-    outline: 0
+    outline: 0;
+    text-decoration: none;
 }
 
 abbr[title] {
@@ -1404,7 +1405,7 @@ a {
 a:focus,
 a:hover {
     color: #23527c;
-    text-decoration: underline
+    text-decoration:none;
 }
 
 a:focus {
@@ -1427,7 +1428,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    margin: 0px auto;
 }
 
 .img-rounded {
@@ -7964,3 +7966,8 @@ button.close {
         display: none!important
     }
 }
+
+
+}
+
+
