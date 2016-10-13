@@ -164,11 +164,11 @@
 
         .btn-xl {
             color: #fff;
-            background-color: #fed136;
-            border-color: #fed136;
+            background-color:#337ab7;
+            border-color: #2e6da4;
             border-radius: 3px;
-            font-size: 18px;
-            padding: 20px 40px
+            font-size: 16px;
+            padding: 10px 20px
         }
 
         .btn-xl.active,
@@ -177,8 +177,8 @@
         .btn-xl:hover,
         .open .dropdown-toggle.btn-xl {
             color: #fff;
-            background-color: #fec503;
-            border-color: #f6bf01
+            background-color: #286090;
+            border-color: #204d74
         }
 
         .btn-xl.disabled,
@@ -211,7 +211,7 @@
         }
 
         .navbar-custom .navbar-brand {
-            color: #fed136;
+            color: aliceblue;
             font-weight: 800
         }
 
@@ -219,7 +219,7 @@
         .navbar-custom .navbar-brand:active,
         .navbar-custom .navbar-brand:focus,
         .navbar-custom .navbar-brand:hover {
-            color: #fec503
+            color: #99cfff
         }
 
         .navbar-custom .nav li a,
@@ -347,8 +347,9 @@
 
         #portfolio .portfolio-item .portfolio-caption p,
         section h3.section-subheading {
-            font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-            font-style: italic
+            font-family: 'Reenie Beanie', cursive;
+
+            font-weight: 600;
         }
 
         section {
@@ -356,7 +357,7 @@
         }
 
         section h2.section-heading {
-            font-size: 40px;
+            font-size: 36px;
             margin-top: 0;
             margin-bottom: 15px
         }
@@ -440,7 +441,7 @@
         }
 
         #portfolio .portfolio-item .portfolio-caption p {
-            font-size: 16px;
+            font-size: 22px;
             margin: 0
         }
 
@@ -677,7 +678,7 @@
 
         section#contact .form-group input,
         section#contact .form-group textarea {
-            padding: 20px
+            padding: 10px
         }
 
         section#contact .form-group input.form-control {
@@ -685,11 +686,11 @@
         }
 
         section#contact .form-group textarea.form-control {
-            height: 236px
+            height: 173px
         }
 
         section#contact .form-control:focus {
-            border-color: #fed136;
+            border-color:#2e6da4;
             box-shadow: none
         }
 
@@ -811,14 +812,21 @@
             display: none
         }
 
+
+
+
         ::-moz-selection {
             text-shadow: none;
-            background: #fed136
+            background:#337ab7;
+            color:white;
+
         }
 
         ::selection {
             text-shadow: none;
-            background: #fed136
+            background:#337ab7;
+            color:white;
+
         }
 
         img::-moz-selection {
@@ -1146,6 +1154,8 @@ hr.sp-bg:after {
 
 .see-all-transition {
   outline: none;
+  -webkit-transition: background-color 0.2s ease-out,
+              color 0.2s ease-out;
   transition: background-color 0.2s ease-out,
               color 0.2s ease-out;
 }
@@ -1153,7 +1163,8 @@ hr.sp-bg:after {
 .see-all-transition:active {
   background-color: #337ab7;
   color: #fff;
-  border:2px solid white;
+  -webkit-transition: background-color 0.3s ease-in,
+              color 0.3s ease-in;
   transition: background-color 0.3s ease-in,
               color 0.3s ease-in;
 }
