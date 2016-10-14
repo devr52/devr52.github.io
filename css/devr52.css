@@ -877,7 +877,8 @@
         }
 
         .dark-bg-text {
-            color: #d2d2d2
+            color: #d2d2d2;
+            ;letter-spacing: 1px;
         }
 
         .logo-tagline {
