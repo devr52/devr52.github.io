@@ -327,7 +327,7 @@
             font-weight: 700;
             font-size: 45px;
             line-height: 50px;
-            margin-bottom: 25px
+            margin-bottom: 15px
         }
 
         @media (min-width:768px) {
@@ -348,7 +348,7 @@
                 font-weight: 700;
                 font-size: 65px;
                 line-height: 75px;
-                margin-bottom: 25px
+                margin-bottom: 15px
             }
         }
 
@@ -882,7 +882,7 @@
         }
 
         .logo-tagline {
-            font-size: 18px
+            font-size: 20px
         }
 
         .btn-outline,
