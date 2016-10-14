@@ -95,7 +95,7 @@
         }
 
         .bg-darkest-gray {
-            background-color: #222
+            background-color: #333;
         }
 
         .bg-dark-blue {
@@ -239,14 +239,14 @@
         }
 
         .navbar-custom .navbar-toggle {
-            background-color: #fed136;
-            border-color: #fed136;
+            border-color: #d2d2d2;
             font-size: 12px
         }
 
         .navbar-custom .navbar-toggle:focus,
         .navbar-custom .navbar-toggle:hover {
-            background-color: #fed136
+            background-color: #2C3E50;
+            border-color:#233140;
         }
 
         .navbar-custom .nav li a {
@@ -668,7 +668,7 @@
         }
 
         section#contact {
-            background-color: #778899;
+            background-color: #486684;
             background-image: url(../img/map-image.png);
             background-position: center;
             background-repeat: no-repeat
@@ -876,7 +876,7 @@
             color: #fff
         }
 
-        .skills {
+        .dark-bg-text {
             color: #d2d2d2
         }
 
@@ -976,9 +976,9 @@
         hr.star-primary1 {
             padding: 0;
             border: none;
-            border-top: solid 5px;
+            border-top: solid 4px;
             text-align: center;
-            max-width: 250px;
+            max-width: 350px;
             margin: 25px auto 60px
         }
 
@@ -986,13 +986,19 @@
         hr.star-light:after,
         hr.star-primary1:after,
         hr.star-primary:after {
-            content: "\f005";
+            content: "\f121";
             font-family: FontAwesome;
             display: inline-block;
             position: relative;
             top: -.8em;
-            font-size: 2em;
+            font-size: 3em;
+            font-weight: 600;
             padding: 0 .25em
+        }
+
+        hr.star-primary1:after{
+             content: "\f098";
+            font-size:30px;
         }
 
         hr.star-light {
@@ -1019,12 +1025,12 @@
         }
 
         hr.star-primary1:after {
-            background-color: #778899;
+            background-color: #486684;
             color: #fff
         }
 
         hr.star-light1:after {
-            background-color: #222;
+            background-color: #333;
             color: #fff
         }
 
@@ -1136,7 +1142,9 @@
 
         hr.sp-bg:after {
             background-color: #eee;
-            color: #2C3E50
+            color: #2C3E50;
+             content: "\f02d";
+            font-size:30px;;
         }
 
         .see-all {
@@ -1163,3 +1171,32 @@
         .img-src {
             font-size: 10px;
         }
+
+        .services h4 {
+            color: #fff;
+            text-align: center;
+            letter-spacing: 1px;
+            font-size:16px;
+            font-family: "Raleway", sans-serif;
+        }
+.services-icon {
+    color:#fff;
+    text-align: center;
+    padding-top: 7px;
+    height: 100px;
+}
+
+.service-img{
+    padding-top:0px;
+}
+
+.service-img img {
+    width: 75px;
+    padding-top: 0px;
+}
+
+.about-question {
+    color:#1A6C94;
+    font-size:14px;
+    font-weight: 800;
+}
