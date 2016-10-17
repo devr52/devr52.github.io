@@ -1201,3 +1201,12 @@
     font-size:14px;
     font-weight: 800;
 }
+
+.new {
+   margin-left: 5px;
+   padding:0px 10px;
+   background:#2e6da4;
+   font-size:11px;
+   position: absolute;
+   border-radius: 4px;
+}
